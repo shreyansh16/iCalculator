@@ -4,7 +4,8 @@ import java.util.*;
 class Calculator{
 public static void main(String[] args){
    
-    String nums="//:\n1:2:3:-4:-5";
+   Scanner sc = new Scanner(System.in);
+    String nums=sc.next();
     int sum=Add(nums);
     System.out.println("The sum is:" +sum);
 }
